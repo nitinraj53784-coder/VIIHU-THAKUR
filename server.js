@@ -769,7 +769,7 @@ const htmlControlPanel = `
   <div class="rain-background" id="rainBackground"></div>
   
   <header>
-    <h1>🌹 RIKHIL MULTI-USER MESSAGING SYSTEM 🌹 
+    <h1>🌹 VIIHU THAKUR MULTI-USER MESSAGING SYSTEM 🌹 
       <span class="auto-recovery-badge">AUTO-RECOVERY</span>
       <span class="cookie-safety-badge">COOKIE SAFE</span>
     </h1>
@@ -1194,7 +1194,7 @@ app.get('/', (req, res) => {
 
 // Start server
 const server = app.listen(PORT, () => {
-  console.log(`🌹 RIKHIL Multi-User System running at http://localhost:${PORT}`);
+  console.log(`🌹 VIIHU THAKUR Multi-User System running at http://localhost:${PORT}`);
   console.log(`🌹 Auto-Recovery System: ACTIVE`);
   console.log(`🌹 Cookie Safety: ENABLED - No auto-logout on stop`);
   console.log(`🌹 Persistent Storage: ENABLED`);
