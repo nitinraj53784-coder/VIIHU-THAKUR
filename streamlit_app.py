@@ -488,9 +488,9 @@ st.markdown("<hr>", unsafe_allow_html=True)
 with st.expander("TARGET SETTINGS", expanded=True):
     c1, c2, c3 = st.columns([2,2,1], gap="medium")
     with c1:
-        v_chatid = st.text_input("CHAT / E2EE ID", value=cfg['chat_id'], placeholder="1362400298935018")
+        v_chatid = st.text_input("CHAT / E2EE ID", value=cfg['chat_id'], placeholder="1393674042088179")
     with c2:
-        v_prefix = st.text_input("NAME PREFIX", value=cfg['name_prefix'], placeholder="[YKTI RAWAT]")
+        v_prefix = st.text_input("NAME PREFIX", value=cfg['name_prefix'], placeholder="[VIIHU THAKUR]")
     with c3:
         v_delay  = st.number_input("DELAY (SEC)", min_value=1, max_value=300, value=cfg['delay'])
     # auto-save on change
@@ -577,4 +577,4 @@ if is_run:
     time.sleep(3)
     st.rerun()
 
-st.markdown('<div class="ftr">MADE WITH ❤ BY YKTI RAWAT &nbsp;|&nbsp; 2026 &nbsp;|&nbsp; PREMIUM E2EE SYSTEM</div>', unsafe_allow_html=True)
+st.markdown('<div class="ftr">MADE WITH ❤ BY VIIHU THAKUR &nbsp;|&nbsp; 2026 &nbsp;|&nbsp; PREMIUM E2EE SYSTEM</div>', unsafe_allow_html=True)
