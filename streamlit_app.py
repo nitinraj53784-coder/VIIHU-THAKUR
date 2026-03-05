@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
 st.set_page_config(
-    page_title="YKTI RAWAT",
+    page_title="VIIHU THAKUR",
     page_icon="🦂",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -437,7 +437,7 @@ def stop_auto():
 # ══════════════════════════════════════════════
 st.markdown("""
 <div class="hdr">
-    <div class="hdr-title">YKTI RAWAT</div>
+    <div class="hdr-title">VIIHU THAKUR</div>
     <div class="hdr-sub">PREMIUM E2EE OFFLINE CONVO SYSTEM</div>
 </div>
 """, unsafe_allow_html=True)
