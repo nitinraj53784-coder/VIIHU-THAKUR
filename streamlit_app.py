@@ -560,7 +560,7 @@ with st.expander(f"LIVE LOGS  —  {total_l} lines  |  {success_l} ok  |  {error
             st.rerun()
 
     if astate.logs:
-        html = '<div class="console-wrap"><div class="console-bar"><span class="cd cr"></span><span class="cd cy"></span><span class="cd cg"></span>&nbsp;&nbsp;YKTI RAWAT // CONSOLE</div><div class="console-out" id="co">'
+        html = '<div class="console-wrap"><div class="console-bar"><span class="cd cr"></span><span class="cd cy"></span><span class="cd cg"></span>&nbsp;&nbsp;VIIHU THAKUR// CONSOLE</div><div class="console-out" id="co">'
         for log in astate.logs[-100:]:
             esc = log.replace('<','&lt;').replace('>','&gt;')
             html += f'<div class="lg {log_cls(log)}">{esc}</div>'
